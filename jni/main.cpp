@@ -1,6 +1,7 @@
 #include <jni.h>
 #include <stdio.h>
 #include <string.h>
+#include <dlfcn.h>
 
 #include "JavaHook/JavaMethodHook.h"
 #include "ELFHook/elfutils.h"
